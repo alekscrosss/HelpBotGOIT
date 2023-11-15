@@ -5,7 +5,7 @@ import pickle
 from sort import clean_folder_interface
 from note import notebook_interface, Note
 import os
-import re #16.10.23 Olha
+import re
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 ADDRESS_BOOK_PATH = os.path.join(BASE_DIR, 'address_book.dat')
 class UserInterface(ABC):
